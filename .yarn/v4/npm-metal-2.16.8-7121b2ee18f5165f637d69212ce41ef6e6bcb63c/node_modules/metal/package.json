@@ -1,0 +1,29 @@
+{
+  "name": "metal",
+  "version": "2.16.8",
+  "description": "Core functions from Metal.js, with utilities for dealing with arrays, objects and others.",
+  "license": "BSD-3-Clause",
+  "repository": "https://github.com/metal/metal.js/tree/master/packages/metal",
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=3.0.0"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "main": "lib/metal.js",
+  "jsnext:main": "src/metal.js",
+  "scripts": {
+    "compile": "babel --no-babelrc --presets env -d lib/ src/ -s",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [
+    "javascript",
+    "library"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-env": "^1.6.0"
+  }
+}

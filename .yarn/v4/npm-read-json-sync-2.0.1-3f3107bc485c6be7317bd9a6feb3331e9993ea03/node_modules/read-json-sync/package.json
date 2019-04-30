@@ -1,0 +1,42 @@
+{
+	"name": "read-json-sync",
+	"version": "2.0.1",
+	"description": "Read and parse a JSON file synchronously",
+	"repository": "shinnn/read-json-sync",
+	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+	"license": "ISC",
+	"scripts": {
+		"bench": "node benchmark/runner string-slice && node benchmark/runner string-replace && node benchmark/runner buffer-string-slice",
+		"pretest": "eslint .",
+		"test": "nyc node test/test.js"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"data",
+		"json",
+		"file",
+		"read",
+		"load",
+		"bom",
+		"parse",
+		"synchronous",
+		"synchronously",
+		"sync"
+	],
+	"devDependencies": {
+		"@shinnn/eslint-config": "^6.8.7",
+		"chalk": "^2.4.1",
+		"eslint": "^5.10.0",
+		"nyc": "^13.1.0",
+		"nyc-config-common": "^1.0.1",
+		"tape": "^4.9.1"
+	},
+	"eslintConfig": {
+		"extends": "@shinnn"
+	},
+	"nyc": {
+		"extends": "nyc-config-common"
+	}
+}
