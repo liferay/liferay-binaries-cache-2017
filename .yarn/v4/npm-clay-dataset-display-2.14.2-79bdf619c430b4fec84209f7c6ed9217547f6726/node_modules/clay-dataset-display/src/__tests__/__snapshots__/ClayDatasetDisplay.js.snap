@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`ClayDatasetDisplay should render the default markup 1`] = `<div class="clay-dataset-display"></div>`;
