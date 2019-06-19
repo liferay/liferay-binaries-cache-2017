@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.graphql-java</groupId>
+  <artifactId>graphql-java-annotations</artifactId>
+  <version>7.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>javax.validation</groupId>
+      <artifactId>validation-api</artifactId>
+      <version>1.1.0.Final</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.graphql-java</groupId>
+      <artifactId>graphql-java</artifactId>
+      <version>12.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>graphql-java-annotations</name>
+  <description>Annotations-based syntax for GraphQL schema definition</description>
+  <url>https://github.com/graphql-java/graphql-java-annotations</url>
+  <inceptionYear>2016</inceptionYear>
+  <scm>
+    <url>https://github.com/graphql-java/graphql-java-annotations</url>
+    <connection>scm:https://yrashk@github.com/graphql-java/graphql-java-annotations.git</connection>
+    <developerConnection>scm:git://github.com/graphql-java/graphql-java-annotations.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yrashk</id>
+      <name>Yurii Rashkovskii</name>
+      <email>yrashk@gmail.com</email>
+    </developer>
+    <developer>
+      <id>apottere</id>
+      <name>Andrew Potter</name>
+      <email>Andrew.Potter@coxautoinc.com</email>
+    </developer>
+    <developer>
+      <id>bbakerman</id>
+      <name>Brad Baker</name>
+      <email>bbakerman@gmail.com</email>
+    </developer>
+    <developer>
+      <id>yarinvak</id>
+      <name>Yarin Vaknin</name>
+      <email>yarinvak@gmail.com</email>
+    </developer>
+    <developer>
+      <id>guy120494</id>
+      <name>Guy Smorodinsky</name>
+    </developer>
+    <developer>
+      <id>osher-sade</id>
+      <name>Osher Sade</name>
+    </developer>
+  </developers>
+</project>
